@@ -71,15 +71,6 @@ Based on the model’s evaluation:
 <img width="362" height="432" alt="image" src="https://github.com/user-attachments/assets/356c0f97-1818-464e-890f-bf3eb940c591" />
 
 
-## ✨ Key Features
-
-* 🔍 Document Retrieval (RAG-style pipeline)
-* 🧠 LLM-based validation of retrieved content
-* 🔀 Conditional branching using LangGraph
-* 📉 Handles missing or irrelevant context gracefully
-* 📄 Optional summarization for valid outputs
-
----
 
 ## 📤 Output Behavior
 
@@ -87,44 +78,4 @@ Based on the model’s evaluation:
 | --------------------- | ------------------------------------------ |
 | Relevant answer found | Positive response (optionally summarized)  |
 | Irrelevant answer     | Negative response with explanation         |
-| No answer in context  | "Answer not found in the provided context" |
-
----
-
-## 🚀 Use Cases
-
-* Question Answering Systems
-* AI Knowledge Assistants
-* Document Search Pipelines
-* Validation layers in RAG systems
-
----
-
-## 🔧 Requirements
-
-* Python
-* LangGraph
-* LLM API (e.g., OpenAI)
-* Retriever (Vector DB or similar)
-
----
-
-## 🛠️ Future Improvements
-
-* Add confidence scoring for decisions
-* Improve retriever accuracy with embeddings tuning
-* Add retry mechanism for failed retrievals
-* Integrate multi-document reasoning
-
----
-
-## 📎 Summary
-
-This project demonstrates a clean and minimal **LangGraph pipeline** where:
-
-* Information is retrieved,
-* Evaluated for quality,
-* Then either accepted or rejected based on relevance.
-
-It serves as a strong foundation for building **trustworthy AI systems** that avoid hallucinations and irrelevant answers.
-
+| No answer in context  | "Answer not found in the provided "
