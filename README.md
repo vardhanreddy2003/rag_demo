@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project implements a simple **LangGraph workflow** that retrieves information from documents, evaluates its relevance, and produces a final response based on the quality of the retrieved data.
+This  basic information validation project implements a simple **LangGraph workflow** that retrieves information from documents, evaluates its relevance, and produces a final response based on the quality of the retrieved data.
 
 The system ensures that only meaningful and relevant answers are processed further, improving reliability in retrieval-based applications.
 
